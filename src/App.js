@@ -40,7 +40,6 @@ function App() {
 
         <Footer />
       </BrowserRouter>
-      <a href="">REFRESH</a>
     </section>
   );
 }
