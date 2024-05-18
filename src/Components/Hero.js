@@ -25,7 +25,7 @@ const Hero = () => {
 
         <div className="w-full flex flex-col gap-6">
           <div className="flex items-center gap-1 font-bold">
-            <div className="bg-[#F4DD0A] h-1 w-10"></div>
+            <div className="bg-[#F4DD0A] h-0.5 w-10"></div>
             <p>About Us</p>
           </div>
 
@@ -33,7 +33,7 @@ const Hero = () => {
             <h1>Crafting a Legacy of Innovation in Communication </h1>
           </div>
 
-          <div className="text-[#4B4B59] border-l border-[#F4DD0A] pl-4">
+          <div className="text-[#4B4B59] border-l-2 border-[#F4DD0A] pl-4">
             <p>
               Embark on a journey with us. At Lingoo, discover the passion for
               breaking down language barriers and fostering global connections.

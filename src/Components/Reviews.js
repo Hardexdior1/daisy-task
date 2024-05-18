@@ -17,7 +17,7 @@ const Reviews = () => {
     slidesToScroll: 1,
   };
   return (
-    <div className="px-5 py-4  bg-[#F8F8FB] md:px-20 py-20">
+    <div className="px-7 py-10  bg-[#F8F8FB] md:px-20 py-20">
       <div>
         <div>
           <div className="flex items-center  gap-2 font-bold">
@@ -28,7 +28,7 @@ const Reviews = () => {
           <h1 className="font-bold text-2xl">What Users Says </h1>
         </div>
 
-        <Slider {...settings} className="flex gap-3 p-3 items-center">
+        <Slider {...settings} className="flex gap-3 py-5 px-1 items-center">
           <div className="py-6">
             {/* <div className="grid gap-4 p-3 rounded shadow border"> */}
             <div className=" grid gap-4 bg-white border p-4 rounded shadow-md rounded-lg overflow-hidden transform transition-transform duration-300 ease-in-out hover:-translate-y-2 hover:bg-gray cursor-pointer">
@@ -60,7 +60,7 @@ const Reviews = () => {
           </div>
           <div className="py-5">
             {/* <div className="grid gap-4 p-3 rounded shadow border"> */}
-            <div className=" grid gap-4 bg-white border p-3 rounded shadow-md rounded-lg overflow-hidden transform transition-transform duration-300 ease-in-out hover:-translate-y-2 hover:bg-gray cursor-pointer">
+            <div className=" grid gap-4 bg-white border p-3 rounded shadow-md rounded-lg o transform transition-transform duration-300 ease-in-out hover:-translate-y-2 hover:bg-gray cursor-pointer">
               <div className="flex items-center gap-4 justify-center">
                 <img src={profile2} alt="lady-img" />
 

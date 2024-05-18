@@ -34,9 +34,7 @@ const Blog = () => {
   const [color, setColor] = useState(categories[0]);
   console.log(color);
 
-  useEffect(() => {
-    window.scrollTo(0, 0);
-  });
+  
   return (
     <div>
       <section className="hidden px-20 py-2  bg-[#F8F8FB] md:block px-20 py-20" id="blog" >
