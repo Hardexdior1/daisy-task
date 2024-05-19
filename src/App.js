@@ -20,7 +20,6 @@ function App() {
  
   return (
     <section className="App">
-    
       <BrowserRouter>
 <Navbar />
         <Routes> 
@@ -40,7 +39,6 @@ function App() {
 
         <Footer />
       </BrowserRouter>
-      <a href="">REFRESH</a>
     </section>
   );
 }

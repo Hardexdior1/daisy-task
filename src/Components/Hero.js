@@ -9,6 +9,7 @@ import trustPilot from "../images/Trustpilot svg.png";
 import babel from "../images/Frame.png";
 import Blog from "./Blog";
 import { FaArrowRight } from 'react-icons/fa';
+import CounterSection from "./CounterSection";
 
 const Hero = () => {
   return (
@@ -33,7 +34,7 @@ const Hero = () => {
             <h1>Crafting a Legacy of Innovation in Communication </h1>
           </div>
 
-          <div className="text-[#4B4B59] border-l-2 border-[#F4DD0A] pl-4">
+          <div className="text-[#4B4B59] border-l-4 border-[#F4DD0A] pl-4">
             <p>
               Embark on a journey with us. At Lingoo, discover the passion for
               breaking down language barriers and fostering global connections.
@@ -53,6 +54,8 @@ const Hero = () => {
           </div>
         </div>
       </section>
+
+      <CounterSection />
 
       <section className="grid gap-8 px-4 py-10 bg-[#F8F8FB] md:hidden">
        <div className="relative w-full"> 
@@ -74,7 +77,7 @@ const Hero = () => {
             <h1>Video calls with instant language translation </h1>
           </div>
 
-          <div className="text-[#4B4B59] border-l border-[#F4DD0A] pl-4">
+          <div className="text-[#4B4B59] border-l-4 border-[#F4DD0A] pl-4">
             <p>
               Connect with the world without any linguistic barriers. Try it
               today and open the doors to borderless communication.

@@ -23,38 +23,7 @@ const NavBar = () => {
   }, []);
   return (
     <div>
-      {/* <nav
-        className={ 
-
-          isScrolled
-            ? " z-10 hidden md:flex md:items-center md:justify-between md:px-20 py-3 md:fixed left-0 right-0 bg-white shadow-lg duration-[300ms]"
-            : " hidden md: z-10 flex md:items-center md:justify-between md:px-20 py-2  duration-[300ms]"
-            // : "z-10 hidden md:flex md:items-center md:justify-between md:px-20 py-2  duration-[300ms]"
-        }>
-        <Link to="/">
-          {" "}
-          <img src={logo} alt="logo" />{" "}
-        </Link>
-        <ul className="flex gap-6 md:items-center md:justify-between text-white" >
-          <li>
-            <Link className="font-bold" href="#about">
-              About
-            </Link>
-          </li>
-          <li>
-            <Link className="font-bold" href="#service">
-              Services
-            </Link>
-          </li>
-          <li>
-            <Link href="#getStarted">
-              <button className="font-light px-8 py-2 rounded font-size-2 font-bold  bg-white text-blueG ">
-                Get Started
-              </button>
-            </Link>
-          </li>
-        </ul>
-      </nav> */}
+   
       <nav
         className={
           isScrolled
@@ -67,7 +36,7 @@ const NavBar = () => {
         <ul className="flex gap-6 md:items-center md:justify-between text-white">
           <li>
             {" "}
-            <Link
+            <Link  to="/"
               className={
                 active == "home"
                   ? "text-[#54A9CE] font-bold"
@@ -75,7 +44,7 @@ const NavBar = () => {
               }
               onClick={() => {
                 setActive("home");
-              }}>
+              }} >
               Home
             </Link>{" "}
           </li>
